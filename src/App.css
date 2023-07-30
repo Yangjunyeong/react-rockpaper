@@ -1,0 +1,28 @@
+.box{
+  border : solid 1px black;
+  text-align: center;
+  margin-left: 5px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.box img{
+  width: 150px;
+  height: 100px;
+}
+.win{
+  border-color: green;
+  color: green;
+  border-width: 10px;
+}
+.lose{
+  border-color: red;
+  color: red;
+  border-width: 10px;
+}
+.tie{
+  border-color: black;
+  color: black;
+  border-width: 10px;
+}
